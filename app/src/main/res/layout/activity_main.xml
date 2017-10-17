@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Login"
+            android:textColor="@android:color/background_dark"
             android:textSize="30sp" />
 
         <EditText
@@ -39,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Senha"
+            android:textColor="@android:color/background_dark"
             android:textSize="30sp" />
 
         <EditText
@@ -56,12 +58,15 @@
 
         <Button
             android:id="@+id/btnCadastrar"
+            style="@android:style/Widget.Material.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cadastrar" />
+            android:text="Cadastrar"
+            android:textColor="@android:color/background_dark" />
 
         <Button
             android:id="@+id/btnSobre"
+            style="@android:style/Widget.DeviceDefault.Light.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="sobre" />
